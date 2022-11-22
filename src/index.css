@@ -1,0 +1,61 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+/* DEBUG - START */
+/* *,
+*::before,
+*::after {
+    outline: 2px solid lightgreen;
+} */
+/* DEBUG - END */
+
+/* :not(.navbar) .btn {
+    @apply px-16 py-5 h-14;
+} */
+
+.prose {
+    @apply max-w-full break-words;
+}
+
+.navbar .menu li a:not(.btn) {
+    @apply lg:rounded-md;
+}
+.navbar .menu li a.btn {
+    @apply rounded-md;
+}
+
+.btn, .footer-title {
+    @apply normal-case;
+}
+
+.footer-title {
+    @apply opacity-100;
+}
+
+.bg-primary.full-bleed {
+    box-shadow: 0 0 0 100vmax hsl(213 86% 50%);
+    clip-path: inset(0 -100vmax);
+}
+
+footer.full-bleed {
+    box-shadow: 0 0 0 100vmax hsl(226 18% 29%);
+    clip-path: inset(0 -100vmax);
+}
+
+footer .link {
+    @apply mt-1;
+}
+
+/* ._truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} */
