@@ -19,7 +19,7 @@ const year = new Date().getFullYear();
                 <span class="footer-title">Unsere Projekte</span>
                 <a class="link link-hover" href="https://bussgeldpruefer.com">BussgeldPrüfer</a>
                 <a class="link link-hover" href="https://steuermachen.de">steuermachen</a>
-                <a class="link no-underline cursor-auto">curamun</a>
+                <span class="link no-underline cursor-auto">curamun</span>
             </div>
             <div>
                 <span class="footer-title">Rechtliche</span>
