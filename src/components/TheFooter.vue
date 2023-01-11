@@ -13,13 +13,13 @@ const year = new Date().getFullYear();
                 <!-- h-7 -->
                 <a class="link link-hover" href="/"><img src="@/assets/international.svg" width="20" height="20" class="h-5 mr-4 inline-block" />www.tkgad.de</a>
                 <!-- h-7 -->
-                <a class="link link-hover"><img src="@/assets/location.svg" width="20" height="20" class="h-5 mr-4 inline-block" />Elsterstraße 11, 90427 Nürnberg</a>
+                <a class="link link-hover" href="https://osm.org/go/0D6zbysDS?m" rel="noopener noreferrer" target="_blank"><img src="@/assets/location.svg" width="20" height="20" class="h-5 mr-4 inline-block" />Elsterstraße 11, 90427 Nürnberg</a>
             </div>
             <div>
                 <span class="footer-title">Unsere Projekte</span>
                 <a class="link link-hover" href="https://bussgeldpruefer.com">BussgeldPrüfer</a>
                 <a class="link link-hover" href="https://steuermachen.de">steuermachen</a>
-                <a class="link no-underline cursor-auto">curamun</a>
+                <span class="link no-underline cursor-auto">curamun</span>
             </div>
             <div>
                 <span class="footer-title">Rechtliche</span>

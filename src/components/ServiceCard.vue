@@ -30,7 +30,7 @@ onBeforeMount(() => {
             <h2 class="card-title">{{ title }}</h2>
             <div>{{ toggleText ? previewText : fullText }}</div>
             <div class="mt-6">
-                <span class="link link-hover text-primary" @click="toggleText = !toggleText">{{ toggleText ? 'mehr' : 'weniger' }} lesen <img class="w-5 h-5 inline" src="@/assets/arrow-right.svg" width="20" height="20" /></span>
+                <span class="link link-hover text-primary" @click="toggleText = !toggleText">{{ toggleText ? 'mehr' : 'weniger' }} lesen <img class="w-5 h-5 inline" src="@/assets/arrow-right.svg" width="20" height="20" alt="" /></span>
             </div>
         </div>
     </div>
