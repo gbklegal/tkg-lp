@@ -9,11 +9,11 @@ const year = new Date().getFullYear();
             <div>
                 <span class="footer-title">Kontaktiere Uns</span>
                 <!-- h-7 -->
-                <a class="link link-hover" href="tel:+49911893103440"><img src="@/assets/phone-call.svg" width="20" height="20" class="h-5 mr-4 inline-block" />+49 911 893 103 - 440</a>
+                <a class="link link-hover" href="tel:+49911893103440"><img src="@/assets/phone-call.svg" width="20" height="20" class="h-5 mr-4 inline-block" alt="" />+49 911 893 103 - 440</a>
                 <!-- h-7 -->
-                <a class="link link-hover" href="/"><img src="@/assets/international.svg" width="20" height="20" class="h-5 mr-4 inline-block" />www.tkgad.de</a>
+                <a class="link link-hover" href="/"><img src="@/assets/international.svg" width="20" height="20" class="h-5 mr-4 inline-block" alt="" />www.tkgad.de</a>
                 <!-- h-7 -->
-                <a class="link link-hover" href="https://osm.org/go/0D6zbysDS?m" rel="noopener noreferrer" target="_blank"><img src="@/assets/location.svg" width="20" height="20" class="h-5 mr-4 inline-block" />Elsterstraße 11, 90427 Nürnberg</a>
+                <a class="link link-hover" href="https://osm.org/go/0D6zbysDS?m" rel="noopener noreferrer" target="_blank"><img src="@/assets/location.svg" width="20" height="20" class="h-5 mr-4 inline-block" alt="" />Elsterstraße 11, 90427 Nürnberg</a>
             </div>
             <div>
                 <span class="footer-title">Unsere Projekte</span>
